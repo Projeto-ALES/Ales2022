@@ -1,0 +1,11 @@
+@import "../../styles/breakpoints.scss";
+
+.page {
+  position: sticky;
+  min-height: 100vh;
+  background-color: var(--gray-lightest);
+
+  @include desktop {
+    margin-left: var(--sidebar-width);
+  }
+}
